@@ -10,7 +10,7 @@ import java.util.Map;
 public class IndexController {
     @RequestMapping("/show1.do")
     public String test(Map<String,Object>map){
-        map.put("mm","测试传值");
+        map.put("mm","测试传值q1111");
         return "index";
     }
 }
