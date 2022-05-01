@@ -51,4 +51,10 @@ public class IndexController {
 
         return "index";
     }
+    @RequestMapping("/show8.do")
+    public String test8(Map<String,Object>map){
+        map.put("mm","我是8 ");
+
+        return "index";
+    }
 }
