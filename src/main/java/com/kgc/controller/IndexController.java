@@ -33,4 +33,10 @@ public class IndexController {
 
         return "index";
     }
+    @RequestMapping("/show5.do")
+    public String test5(Map<String,Object>map){
+        map.put("mm","我是5 ");
+
+        return "index";
+    }
 }
