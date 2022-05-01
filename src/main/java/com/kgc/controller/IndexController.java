@@ -12,6 +12,8 @@ public class IndexController {
     public String test(Map<String,Object>map){
         map.put("mm","我是master");
 
+        map.put("mm","我是分支");
+
         return "index";
     }
 }
