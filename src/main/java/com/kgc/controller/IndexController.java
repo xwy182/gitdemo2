@@ -20,4 +20,11 @@ public class IndexController {
 
         return "index";
     }
+
+    @RequestMapping("/show3.do")
+    public String test3(Map<String,Object>map){
+        map.put("mm","我是gengxin dongxi  ");
+
+        return "index";
+    }
 }
